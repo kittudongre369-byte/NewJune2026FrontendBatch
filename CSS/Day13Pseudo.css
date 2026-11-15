@@ -1,0 +1,66 @@
+:root {
+  --primary: violet;
+  --secondary:red;
+}
+
+#hoverBtn:hover {
+  background-color: blue;
+  color: white;
+}
+#btnActive:active {
+  background-color: var(--secondary);
+  color: aqua;
+}
+#inputFocus {
+  margin: 20px;
+}
+#inputFocus:focus {
+  border: 5px solid green;
+  outline: none;
+}
+#Test:disabled {
+  background-color: red;
+  color: rgb(224, 187, 187);
+}
+
+/* Link pseudo classes
+LVHA -LoVe Hate
+Link
+Visited
+hover
+active */
+
+a:link {
+     color:red;
+     background:aqua;
+}
+ 
+a:visited {
+    background-color: white;
+    color:blue;
+}
+
+a:hover {
+    background-color: white;
+    color:black;
+    font-size:25px;
+}
+
+a:active {
+    color:darkmagenta;
+}
+
+li:first-child {
+     background-color: aquamarine;
+}
+
+li:last-child {
+    background-color:violet;
+}
+
+li:nth-child(2) {
+    background-color :violet;
+}
+li:nth-last-child(2){
+    background-color:var(--primary);
+}
