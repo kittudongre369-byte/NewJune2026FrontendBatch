@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+.grandParent {
+    font-size:10px;
+}
+  /* background-color:black; */
+
+/* 1vw = 1% of browser ka viewport width
+   1vh = 1% of browser ka available viewport height */
+
+
+.parent {
+    background-color:yellow;
+    width:70vw;
+    height: 70vh;
+    margin: 50px;
+    font-size: 2em;
+}
+
+.Child1{
+    background-color: red;
+    margin:10px;
+    min-width:100px;
+    width:50%;
+    max-width:200px;
+    height:40%;
+    font-size:2rem;
+}
+
+.Child2{
+    background-color:green;
+    width: 60%;
+    height: 40%;
+    margin: 10px;
+    font-size:2.5em;
+}
